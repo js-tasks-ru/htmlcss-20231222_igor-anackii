@@ -6,6 +6,11 @@
     margin-bottom: 8px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .accordion__item:last-child {
@@ -27,10 +32,6 @@
 
 .accordion__title {
     flex-grow: 1;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
     color: var(--black);
 }
 
