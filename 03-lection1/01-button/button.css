@@ -11,48 +11,48 @@
 }
 
 /* Primary */
-.btn__primary {
-    color: white;
+.btn_primary {
+    color: var(--white);
     background: var(--blue-1);
 }
 
-.btn__primary:hover {
+.btn_primary:hover {
     background: var(--blue-2);
 }
 
-.btn__primary:disabled {
+.btn_primary:disabled {
     opacity: 0.5;
     pointer-events: none;
 }
 
 /* Secondary */
-.btn__secondary {
-    color: white;
+.btn_secondary {
+    color: var(--white);
     background: var(--purple-1);
 }
 
-.btn__secondary:hover {
+.btn_secondary:hover {
     background: var(--purple-2);
 }
 
-.btn__secondary:disabled {
+.btn_secondary:disabled {
     pointer-events: none;
     opacity: 0.5;
 }
 
 /* Alternate */
-.btn__alternate {
-    background: white;
+.btn_alternate {
+    background: var(--white);
     color: var(--grey-4);
     border: solid 1px var(--grey-3);
 }
 
-.btn__alternate:hover {
+.btn_alternate:hover {
     color: var(--grey-4);
     border-color: var(--black);
 }
 
-.btn__alternate:disabled {
+.btn_alternate:disabled {
     opacity: 0.5;
     pointer-events: none;
 }
